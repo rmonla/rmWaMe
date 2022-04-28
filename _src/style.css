@@ -1,281 +1,302 @@
 * {
-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *:focus {
     outline: none;
 }
 
-html, body {
-text-align: center;
-margin: 0px;
-margin-bottom: 25px;
-font-family: Arial, Verdana;
-background: white;
+html,
+body {
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 25px;
+    font-family: Arial, Verdana;
+    background: white;
 }
 
-input, select {
-border: 1px solid gray;
-padding: 3px;
-font-size: 16px;
-line-height: 17px;
-max-width: 100%;
+input,
+select {
+    border: 1px solid gray;
+    padding: 3px;
+    font-size: 16px;
+    line-height: 17px;
+    max-width: 100%;
 }
 
 a {
-color: black;
+    color: black;
 }
 
-h1,h2 {
-margin: 0;
-padding-bottom: 10px;
-font-size: 1.5em;
+h1,
+h2 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 1.5em;
 }
 
-h1::first-letter,h2::first-letter {
-text-transform: uppercase;
+h1::first-letter,
+h2::first-letter {
+    text-transform: uppercase;
 }
 
 h1 {
-padding-top: 20px;
-font-family: "Trebuchet MS", Helvetica, sans-serif;
-font-size: 2em;
+    padding-top: 20px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 2em;
 }
 
-h2, h2 a {
-color: #183e7a;
+h2,
+h2 a {
+    color: #183e7a;
 }
 
 form {
-margin: 0px;
-padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1 a {
-display: block;
-margin-bottom: 15px;
-color: green;
-text-decoration: none !important;
+    display: block;
+    margin-bottom: 15px;
+    color: green;
+    text-decoration: none !important;
 }
 
 p {
-max-width: 600px;
-margin: 0px auto 20px auto;
-text-align: left;
+    max-width: 600px;
+    margin: 0px auto 20px auto;
+    text-align: left;
 }
 
 .share {
-font-weight: bold;
-margin: 20px auto;
-background: #FFFF7A;
-max-width: 300px;
-padding: 10px;
+    font-weight: bold;
+    margin: 20px auto;
+    background: #FFFF7A;
+    max-width: 300px;
+    padding: 10px;
 }
 
 p a {
-color: black;
+    color: black;
 }
 
 .center {
-text-align: center;
+    text-align: center;
 }
 
 div#page {
-margin-left: 10px;
-margin-right: 10px;
-position: relative;
-padding-bottom: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    padding-bottom: 300px;
 }
 
-div#page, div#banner, div.banner {
-overflow: hidden;
+div#page,
+div#banner,
+div.banner {
+    overflow: hidden;
 }
 
 div#content {
-max-width: 650px;
-padding: 10px;
-padding-top: 0px;
-margin: 0px auto;
-float: none;
+    max-width: 650px;
+    padding: 10px;
+    padding-top: 0px;
+    margin: 0px auto;
+    float: none;
 }
 
 #bok_vlevo_160 {
-background: #f2f2f2;
-width: 160px;
-height: 600px;
-position: fixed;
-top: 70px;
-left: 50px;
-display: none;
+    background: #f2f2f2;
+    width: 160px;
+    height: 600px;
+    position: fixed;
+    top: 70px;
+    left: 50px;
+    display: none;
 }
+
 #bok_vpravo_160 {
-background: #f2f2f2;
-width: 160px;
-height: 600px;
-position: fixed;
-top: 70px;
-right: 50px;
-display: none;
+    background: #f2f2f2;
+    width: 160px;
+    height: 600px;
+    position: fixed;
+    top: 70px;
+    right: 50px;
+    display: none;
 }
 
 @media screen and (min-width: 1050px) {
-	#bok_vlevo_160 {
-	display: block;
-	}
-	#bok_vpravo_160 {
-	display: block;
-	}
-	.banner {
-	display: none;
-	}
+    #bok_vlevo_160 {
+        display: block;
+    }
+
+    #bok_vpravo_160 {
+        display: block;
+    }
+
+    .banner {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1049px) {
-	#bok_vlevo_160 {
-	display: none;
-	}
-	#bok_vpravo_160 {
-	display: none;
-	}
-	.banner {
-	display: block;
-	}
+    #bok_vlevo_160 {
+        display: none;
+    }
+
+    #bok_vpravo_160 {
+        display: none;
+    }
+
+    .banner {
+        display: block;
+    }
 }
 
 @media screen and (min-width: 980px) {
-	#addform {
-	bottom: 0px;
-	}
+    #addform {
+        bottom: 0px;
+    }
 }
 
 #cook {
-position: fixed;
-z-index: 999999999999;
-width: 100%;
-top: 340px;
-left: 0px;
-display: none;
+    position: fixed;
+    z-index: 999999999999;
+    width: 100%;
+    top: 340px;
+    left: 0px;
+    display: none;
 }
 
 #cook_text {
-display: block;
-background: #333333;
-color: white;
-max-width: 600px;
-padding: 15px;
-display: flex;
-justify-content: center;
-align-items: center;
-margin: 0px auto;
+    display: block;
+    background: #333333;
+    color: white;
+    max-width: 600px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
 }
 
 #cook #but a {
-display: inline-block;
-float: none;
-color: white;
-padding: 15px;
-text-decoration: none;
-float: right;
-border-radius: 5px;
-width: 200px;
-margin-left: 15px;
-margin-top: 2px;
-margin-bottom: 2px;
+    display: inline-block;
+    float: none;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    float: right;
+    border-radius: 5px;
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 
 @media screen and (max-width: 430px) {
-#cook #cook_text {
-	display: block;
-	}
-#cook #but {
-	margin-top: 10px;
-	}
-#cook #but a {
-	float: none;
-	width: 40%;
-	margin-left: 2px;
-	margin-right: 2px;
-	}
+    #cook #cook_text {
+        display: block;
+    }
+
+    #cook #but {
+        margin-top: 10px;
+    }
+
+    #cook #but a {
+        float: none;
+        width: 40%;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
 }
 
 @media screen and (max-width: 700px) {
-	#cook {
-	top: auto;
-	bottom: 0px;
-	}
+    #cook {
+        top: auto;
+        bottom: 0px;
+    }
 }
 
 
 h2 {
-margin-top: 30px;
+    margin-top: 30px;
 }
 
 input[name=phone] {
-line-height: 45px;
-font-size: 30px;
-text-align: center;
-width: 100%;
-max-width: 400px;
+    line-height: 45px;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
 }
 
 a#open {
-display: block;
-margin: 20px auto 20px auto;
-width: 100%;
-max-width: 400px;
-background: #183e7a;
-padding: 15px;
-font-size: 30px;
-text-align: center;
-color: white;
-text-decoration: none;
+    display: block;
+    margin: 20px auto 20px auto;
+    width: 100%;
+    max-width: 400px;
+    background: #183e7a;
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
 }
-.red {color: red;}
-.green {color: green;}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
 
 #box {
-	background: #e8efff;
-	padding: 10px 20px 20px 20px;
-	border-radius: 0px 0px 5px 5px;
+    background: #e8efff;
+    padding: 10px 20px 20px 20px;
+    border-radius: 0px 0px 5px 5px;
 }
 
-p,li {
-	line-height: 1.4em;
+p,
+li {
+    line-height: 1.4em;
 }
 
 .tool {
-	height: 50px;
-	resize: none;
-	overflow: hidden;
-	width: 100%;
-	text-align: center;
-	padding: 10px;
+    height: 50px;
+    resize: none;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
 }
 
 #links {
-	background: #e8efff;
-	width: 100%;
-	border-radius: 5px 5px 0px 0px;
+    background: #e8efff;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
 }
 
 #links td {
-	width: 33% !important;
+    width: 33% !important;
 }
 
 #links a {
-	display: block;
-	background: #183e7a;
-	padding: 15px;
-	font-size: 20px;
-	text-align: center;
-	color: white;
-	text-decoration: none;
-	border-radius: 5px 5px 0px 0px;
+    display: block;
+    background: #183e7a;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px 5px 0px 0px;
 }
 
 #links a.here {
-	background: transparent;
-	color: black;
-	font-weight: bold;
+    background: transparent;
+    color: black;
+    font-weight: bold;
 }
